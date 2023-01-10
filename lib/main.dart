@@ -5,5 +5,5 @@ void main() {
   SingletonClass.myIntSet(15);
   SingletonClass.myIntSet(50);
 
-  print(SingletonClass.myInt);
+  print(SingletonClass.myVariable);
 }

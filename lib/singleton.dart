@@ -17,5 +17,8 @@ class SingletonClass {
   }
 
   // class variable setter in the class
+  static String myVariableSet(String value) => myVariable = value;
+  static bool myBoolSet(bool value) => myBoolean = value;
   static int myIntSet(int value) => myInt = value;
+  static double myDoubleSet(double value) => myDouble = value;
 }
